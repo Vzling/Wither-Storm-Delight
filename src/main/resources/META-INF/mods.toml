@@ -1,0 +1,42 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT License"
+
+[[mods]]
+modId = "witherstorm_delight"
+version = "0.8"
+logoFile = "logo.png"
+logoBlur = false
+displayName = "Wither Storm Delight"
+authors = "shuixingshow, Vzling"
+description = '''This mod adds more Farmer's Delight style food and tools to Cracker's Wither Storm mod'''
+
+[[dependencies.witherstorm_delight]]
+modId = "forge"
+mandatory = true
+versionRange = "${forge_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.witherstorm_delight]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.witherstorm_delight]]
+modId = "witherstormmod"
+mandatory = true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+versionRange = "[0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.witherstorm_delight]]
+modId = "farmersdelight"
+mandatory = true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+versionRange = "[0,)"
+ordering = "NONE"
+side = "BOTH"

@@ -1,0 +1,636 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 8
+      },
+      "bonus_rolls": 0.5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "witherstormmod:tainted_zombie_sitting"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "witherstormmod:tainted_zombie_wall"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "witherstormmod:tainted_zombie_lying"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "witherstormmod:tainted_bone_pile"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "witherstormmod:tainted_skeleton_wall"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "witherstormmod:tainted_skull_ceiling"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "witherstorm_delight:withered_tomato_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "witherstorm_delight:withered_cabbage_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "witherstorm_delight:tainted_mushroom_colony"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "witherstorm_delight:command_cooking_pot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "witherstorm_delight:wither_stove"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "witherstorm_delight:storm_dinner"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "witherstorm_delight:stuffed_tainted_pumpkin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "witherstorm_delight:stuffed_tainted_pumpkin_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "witherstorm_delight:tainted_essence"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "witherstorm_delight:withered_rice"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "witherstorm_delight:wither_storm_tentacle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "witherstormmod:tainted_skull_ceiling"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 30.0,
+                "min": 6.0
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 30.0,
+                "min": 16.0
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_boots",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 30.0,
+                "min": 6.0
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_leggings",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 30.0,
+                "min": 16.0
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_helmet",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 30.0,
+                "min": 10.0
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_shovel",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 12,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "comment": "From Mansion",
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:melon_seeds",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:pumpkin_seeds",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:potato",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "comment": "From Mineshaft",
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal",
+          "weight": 2
+        },
+        {
+          "comment": "From Mineshaft",
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:glow_berries",
+          "weight": 1
+        },
+        {
+          "comment": "From Dungeon",
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "weight": 3
+        },
+        {
+          "comment": "From Ruined Portal",
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39.0,
+                "min": 28.0
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:golden_sword",
+          "weight": 3
+        },
+        {
+          "comment": "From Stronghold",
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:ender_pearl"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "witherstormmod:withered_flesh"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "witherstormmod:withered_bone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "witherstormmod:tainted_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39.0,
+                "min": 20.0
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_hoe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39.0,
+                "min": 20.0
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_pickaxe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39.0,
+                "min": 20.0
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_sword",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39.0,
+                "min": 15.0
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:bow",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39.0,
+                "min": 20.0
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:fishing_rod",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "max": 39.0,
+                "min": 20.0
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "effects": [
+                {
+                  "type": "minecraft:resistance",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 10.0,
+                    "min": 4.0
+                  }
+                },
+                {
+                  "type": "minecraft:luck",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 16.0,
+                    "min": 4.0
+                  }
+                },
+                {
+                  "type": "minecraft:regeneration",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 15.0,
+                    "min": 5.0
+                  }
+                },
+                {
+                  "type": "minecraft:strength",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 24.0,
+                    "min": 12.0
+                  }
+                },
+                {
+                  "type": "minecraft:wither",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 12.0,
+                    "min": 5.0
+                  }
+                },
+                {
+                  "type": "minecraft:saturation",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 24.0,
+                    "min": 12.0
+                  }
+                }
+              ],
+              "function": "minecraft:set_stew_effect"
+            }
+          ],
+          "name": "minecraft:suspicious_stew",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 3,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "witherstormmod:chests/bowels_general"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "witherstormmod:tainted_zombie_wall"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "witherstormmod:tainted_dust"
+    },
+    {
+      "count": 6,
+      "item": "witherstormmod:withered_flesh"
+    },
+    {
+      "count": 4,
+      "item": "witherstormmod:withered_bone"
+    },
+    {
+      "chance": 0.2,
+      "item": "minecraft:skeleton_skull"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "witherstorm_delight:withered_rice"
+    },
+    {
+      "item": "witherstorm_delight:withered_onion"
+    },
+    {
+      "item": "witherstormmod:tainted_mushroom"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "tag": "forge:berries"
+    },
+    [
+      {
+        "item": "witherstorm_delight:withered_onion"
+      },
+      {
+        "item": "witherstorm_delight:withered_tomato"
+      },
+      {
+        "item": "witherstorm_delight:withered_cabbage"
+      }
+    ]
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "witherstorm_delight:stuffed_tainted_pumpkin_block"
+  },
+  "container": {
+    "item": "witherstormmod:tainted_pumpkin"
+  }
+}

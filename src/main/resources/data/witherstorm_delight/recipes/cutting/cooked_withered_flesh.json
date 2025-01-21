@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "witherstorm_delight:cooked_withered_flesh"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "witherstorm_delight:withered_flesh_patty"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

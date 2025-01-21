@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "witherstorm_delight:tainted_cabinet",
+    "witherstorm_delight:withered_cabbage_crate",
+    "witherstorm_delight:withered_tomato_crate",
+    "witherstorm_delight:withered_onion_crate"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "witherstorm_delight:the_eye_of_symbiont"
+    }
+  },
+  "pattern": [
+    "A"
+  ],
+  "result": {
+    "item": "witherstormmod:command_block_book"
+  },
+  "show_notification": true
+}

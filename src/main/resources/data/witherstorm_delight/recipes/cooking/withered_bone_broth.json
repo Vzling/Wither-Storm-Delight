@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "witherstormmod:withered_bone"
+    },
+    [
+      {
+        "item": "minecraft:glow_berries"
+      },
+      {
+        "tag": "forge:mushrooms"
+      },
+      {
+        "item": "minecraft:hanging_roots"
+      },
+      {
+        "item": "minecraft:glow_lichen"
+      }
+    ]
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "witherstorm_delight:withered_bone_broth"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

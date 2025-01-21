@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "witherstorm_delight:formidifried_egg"
+    },
+    "title": {
+      "translate": "advancements.formidifried_egg.title"
+    },
+    "description": {
+      "translate": "advancements.formidifried_egg.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "meteorite_ingot_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witherstorm_delight:formidifried_egg"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "witherstorm_delight:formidiegg"
+}

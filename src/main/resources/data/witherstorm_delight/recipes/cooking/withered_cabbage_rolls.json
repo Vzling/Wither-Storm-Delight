@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "witherstorm_delight:withered_cabbage"
+    },
+    {
+      "tag": "farmersdelight:cabbage_roll_ingredients"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "witherstorm_delight:withered_cabbage_rolls"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "witherstorm_delight:withered_onion",
+    "witherstorm_delight:withered_tomato_seeds",
+    "witherstorm_delight:withered_cabbage_seeds",
+    "witherstorm_delight:withered_rice"
+  ]
+}

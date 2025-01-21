@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "witherstorm_delight:withered_cabbage"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "witherstorm_delight:withered_cabbage_leaf"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

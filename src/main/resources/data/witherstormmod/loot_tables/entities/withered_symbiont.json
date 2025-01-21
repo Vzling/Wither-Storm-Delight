@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "witherstormmod:command_block_book"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "witherstorm_delight:the_eye_of_symbiont"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "witherstormmod:entities/withered_symbiont"
+}

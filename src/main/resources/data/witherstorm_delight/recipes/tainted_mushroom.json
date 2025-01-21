@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "witherstorm_delight:tainted_mushroom_colony"
+    }
+  ],
+  "result": [
+    {
+      "count": 5,
+      "item": "witherstormmod:tainted_mushroom"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

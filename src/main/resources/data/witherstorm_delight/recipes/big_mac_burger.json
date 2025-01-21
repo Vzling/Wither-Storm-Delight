@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "item": "witherstorm_delight:withered_flesh_patty"
+    },
+    {
+      "item": "witherstorm_delight:withered_cabbage"
+    },
+    {
+      "item": "witherstorm_delight:withered_tomato"
+    },
+    {
+      "item": "witherstorm_delight:withered_onion"
+    },
+    {
+      "item": "witherstorm_delight:withered_flesh_patty"
+    },
+    {
+      "tag": "forge:bread"
+    }
+  ],
+  "result": {
+    "item": "witherstorm_delight:big_mac_burger_block"
+  }
+}

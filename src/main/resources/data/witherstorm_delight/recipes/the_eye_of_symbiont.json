@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "witherstormmod:command_block_book"
+    },
+    "X": {
+      "item": "witherstorm_delight:tainted_essence"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XAX",
+    "XXX"
+  ],
+  "result": {
+    "item": "witherstorm_delight:the_eye_of_symbiont"
+  },
+  "show_notification": true
+}

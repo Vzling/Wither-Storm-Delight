@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+     {
+        "item": "witherstorm_delight:withered_onion"
+      },
+     {
+        "item": "witherstorm_delight:withered_tomato"
+     },
+    [
+      {
+        "item": "witherstorm_delight:cooked_withered_flesh"
+      },
+     {
+        "item": "witherstorm_delight:withered_flesh_patty"
+      }
+    ],
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "witherstorm_delight:wither_barbecue_stick"
+  }
+}

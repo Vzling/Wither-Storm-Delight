@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "a": {
+      "item": "witherstorm_delight:tainted_essence"
+    },
+    "x": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "###",
+    "aaa",
+    "xOx"
+  ],
+  "result": {
+    "item": "witherstorm_delight:storm_pie"
+  },
+  "show_notification": true
+}

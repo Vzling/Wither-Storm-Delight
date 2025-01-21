@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "witherstormmod:withered_flesh"
+  },
+  "result": "witherstorm_delight:cooked_withered_flesh"
+}

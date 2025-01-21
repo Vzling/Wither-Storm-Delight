@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "witherstorm_delight:block/tainted_cabinet_front",
+    "side": "witherstorm_delight:block/tainted_cabinet_side",
+    "top": "witherstorm_delight:block/tainted_cabinet_top"
+  }
+}

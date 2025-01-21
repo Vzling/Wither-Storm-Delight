@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "witherstormmod:tainted_slab"
+    },
+     "A": {
+      "item": "witherstormmod:tainted_trapdoor"
+    }
+  },
+  "pattern": [
+    "###",
+    "A A",
+    "###"
+  ],
+  "result": {
+    "item": "witherstorm_delight:tainted_cabinet"
+  },
+  "show_notification": true
+}

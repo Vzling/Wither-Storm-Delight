@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "witherstorm_delight:tainted_zombie"
+    },
+    {
+      "tag": "witherstorm_delight:tainted_zombie"
+    },
+    {
+      "tag": "witherstorm_delight:tainted_zombie"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "witherstorm_delight:cooked_tainted_zombie_block"
+  },
+"container": {
+    "item": "minecraft:bowl"
+  }
+}

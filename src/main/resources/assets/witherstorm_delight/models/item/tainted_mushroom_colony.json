@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "witherstorm_delight:block/tainted_mushroom_colony_stage3"
+  }
+}

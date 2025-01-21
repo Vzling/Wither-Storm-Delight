@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "witherstorm_delight:item/command_block_knife"
+  }
+}

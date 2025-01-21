@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "witherstorm_delight:withered_tomato"
+    },
+    {
+      "item": "witherstorm_delight:withered_tomato"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "witherstorm_delight:withered_tomato_sauce"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

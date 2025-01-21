@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "witherstorm_delight:wither_stove"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "witherstorm_delight:block/wither_stove"
+}

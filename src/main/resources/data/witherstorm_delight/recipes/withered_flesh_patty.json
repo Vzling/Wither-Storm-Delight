@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "witherstorm_delight:minced_withered_flesh"
+  },
+  "result": "witherstorm_delight:withered_flesh_patty"
+}

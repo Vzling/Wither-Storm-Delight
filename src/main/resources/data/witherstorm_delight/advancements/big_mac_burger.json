@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "witherstorm_delight:big_mac_burger_block"
+    },
+    "title": {
+      "translate": "advancements.big_mac_burger.title"
+    },
+    "description": {
+      "translate": "advancements.big_mac_burger.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "meteorite_ingot_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witherstorm_delight:big_mac_burger_block"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "witherstorm_delight:command_block_knife"
+}

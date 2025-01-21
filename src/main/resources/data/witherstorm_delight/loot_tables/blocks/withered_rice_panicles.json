@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "name": "pool1",
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "witherstorm_delight:withered_rice_panicles",
+                  "properties": {
+                    "age": "3"
+                  }
+                },
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "tag": "farmersdelight:tools/knives"
+                  }
+                }
+              ],
+              "name": "witherstorm_delight:withered_rice"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "witherstorm_delight:withered_rice_panicles",
+                  "properties": {
+                    "age": "3"
+                  }
+                }
+              ],
+              "name": "witherstorm_delight:withered_rice_panicle"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:explosion_decay"
+    }
+  ]
+}

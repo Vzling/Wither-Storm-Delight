@@ -1,0 +1,11 @@
+{
+  "type": "witherstormmod:anvil",
+  "cost": 1,
+  "left": {
+    "item": "farmersdelight:diamond_knife"
+  },
+  "result": "witherstorm_delight:command_block_knife",
+  "right": {
+    "item": "witherstormmod:command_block_book"
+  }
+}

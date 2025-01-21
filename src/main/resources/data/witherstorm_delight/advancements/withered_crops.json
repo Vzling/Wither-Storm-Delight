@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "item": "witherstorm_delight:withered_cabbage"
+    },
+    "title": {
+      "translate": "advancements.withered_crops.title"
+    },
+    "description": {
+      "translate": "advancements.withered_crops.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tomato": {
+      "conditions": {
+        "location": [
+          {
+            "block": "witherstorm_delight:budding_withered_tomatoes",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "cabbage": {
+      "conditions": {
+        "location": [
+          {
+            "block": "witherstorm_delight:withered_cabbages",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "onion": {
+      "conditions": {
+        "location": [
+          {
+            "block": "witherstorm_delight:withered_onions",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "rice": {
+      "conditions": {
+        "location": [
+          {
+            "block": "witherstorm_delight:withered_rice",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "parent": "witherstorm_delight:withered_seeds"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "witherstormmod:tainted_dust"
+    },
+    {
+      "item": "witherstormmod:tainted_dust"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "witherstorm_delight:tainted_essence"
+  }
+}

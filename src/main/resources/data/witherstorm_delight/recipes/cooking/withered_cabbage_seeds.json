@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "farmersdelight:cabbage_seeds"
+    },
+    {
+      "item": "witherstorm_delight:tainted_essence"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "witherstorm_delight:withered_cabbage_seeds"
+  }
+}

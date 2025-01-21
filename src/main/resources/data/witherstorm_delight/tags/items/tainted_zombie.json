@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "witherstormmod:tainted_zombie_sitting",
+    "witherstormmod:tainted_zombie_lying",
+    "witherstormmod:tainted_zombie_wall"
+  ]
+}

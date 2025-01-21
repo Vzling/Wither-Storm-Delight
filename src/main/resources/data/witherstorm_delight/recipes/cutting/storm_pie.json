@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "witherstorm_delight:storm_pie"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "witherstorm_delight:storm_pie_slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

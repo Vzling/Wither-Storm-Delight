@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    [
+      {
+        "item": "farmersdelight:red_mushroom_colony"
+      },
+      {
+        "item": "farmersdelight:brown_mushroom_colony"
+      }
+    ],
+    {
+      "item": "witherstorm_delight:tainted_essence"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "witherstorm_delight:tainted_mushroom_colony"
+  }
+}

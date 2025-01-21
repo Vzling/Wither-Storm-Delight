@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "witherstorm_delight:tainted_cabinet"
+    },
+    "title": {
+      "translate": "advancements.tainted_cabinet.title"
+    },
+    "description": {
+      "translate": "advancements.tainted_cabinet.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "meteorite_ingot_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witherstorm_delight:tainted_cabinet"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "witherstorm_delight:witherstorm_delight"
+}

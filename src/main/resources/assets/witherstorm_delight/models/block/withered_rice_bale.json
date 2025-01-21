@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "witherstorm_delight:block/withered_rice_bale_top",
+    "side": "witherstorm_delight:block/withered_rice_bale_side",
+    "bottom": "witherstorm_delight:block/withered_rice_bale_bottom"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "witherstorm_delight:item/big_mac_burger_block"
+  }
+}

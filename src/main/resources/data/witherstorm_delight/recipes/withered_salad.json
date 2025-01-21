@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "witherstorm_delight:withered_cabbage"
+      },
+      {
+        "item": "witherstorm_delight:withered_cabbage_leaf"
+      }
+    ],
+    {
+      "item": "witherstorm_delight:withered_tomato"
+    },
+    {
+      "item": "witherstormmod:tainted_mushroom"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "witherstorm_delight:withered_salad"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "witherstormmod:tainted_pumpkin"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "witherstorm_delight:tainted_pumpkin_slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "witherstorm_delight:textures/screen/advancement_background.png",
+    "icon": {
+      "item": "witherstorm_delight:command_cooking_pot"
+    },
+    "title": {
+      "translate": "advancements.witherstorm_delight.title"
+    },
+    "description": {
+      "translate": "advancements.witherstorm_delight.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "jojos_bizarre_adventure_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

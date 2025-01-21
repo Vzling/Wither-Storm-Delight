@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "witherstorm_delight:withered_rice"
+    },
+    "title": {
+      "translate": "advancements.withered_seeds.title"
+    },
+    "description": {
+      "translate": "advancements.withered_seeds.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "meteorite_ingot_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "tag": "witherstorm_delight:withered_seeds"
+        }]
+      }
+    }
+  },
+  "parent": "witherstorm_delight:witherstorm_delight"
+}

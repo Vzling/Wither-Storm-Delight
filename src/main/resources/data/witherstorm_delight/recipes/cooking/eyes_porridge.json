@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "witherstorm_delight:withered_rice"
+    },
+    {
+      "item": "witherstorm_delight:tainted_eye"
+    },
+    {
+      "item": "witherstormmod:tainted_mushroom"
+    },
+    {
+      "item": "witherstormmod:withered_bone"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "witherstorm_delight:eyes_porridge"
+  },
+"container": {
+    "item": "minecraft:bowl"
+  }
+}

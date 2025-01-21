@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "witherstormmod:tainted_skull_ceiling"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "witherstormmod:tainted_dust"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:skeleton_skull"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "witherstorm_delight:item/cooked_tainted_zombie_block"
+  }
+}

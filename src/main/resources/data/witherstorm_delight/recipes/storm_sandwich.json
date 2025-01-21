@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "witherstorm_delight:withered_cabbage"
+      },
+      {
+        "item": "witherstorm_delight:withered_cabbage_leaf"
+      }
+    ],
+    {
+      "item": "witherstorm_delight:wither_storm_tentacle"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    [
+      {
+        "item": "witherstorm_delight:cooked_withered_flesh"
+      },
+     {
+        "item": "witherstorm_delight:withered_flesh_patty"
+      }
+    ]
+  ],
+  "result": {
+    "item": "witherstorm_delight:storm_sandwich"
+  }
+}

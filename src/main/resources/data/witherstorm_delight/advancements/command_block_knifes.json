@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "witherstorm_delight:netherite_command_block_knife"
+    },
+    "title": {
+      "translate": "advancements.command_block_knifes.title"
+    },
+    "description": {
+      "translate": "advancements.command_block_knifes.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "meteorite_ingot_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witherstorm_delight:command_block_knife"
+            ]
+          },
+          {
+            "items": [
+              "witherstorm_delight:flint_command_block_knife"
+            ]
+          },
+          {
+            "items": [
+              "witherstorm_delight:iron_command_block_knife"
+            ]
+          },
+          {
+            "items": [
+              "witherstorm_delight:gold_command_block_knife"
+            ]
+          },
+          {
+            "items": [
+              "witherstorm_delight:netherite_command_block_knife"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "witherstorm_delight:command_block_knife"
+}

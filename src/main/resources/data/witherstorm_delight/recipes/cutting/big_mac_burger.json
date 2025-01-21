@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "witherstorm_delight:big_mac_burger_block"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "witherstorm_delight:big_mac_burger"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

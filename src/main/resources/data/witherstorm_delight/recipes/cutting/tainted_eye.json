@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "witherstormmod:withered_spider_eye"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "witherstorm_delight:tainted_eye"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

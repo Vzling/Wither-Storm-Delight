@@ -1,0 +1,11 @@
+{
+  "type": "witherstormmod:anvil",
+  "cost": 1,
+  "left": {
+    "item": "farmersdelight:stove"
+  },
+  "result": "witherstorm_delight:wither_stove",
+  "right": {
+    "item": "witherstorm_delight:the_eye_of_symbiont"
+  }
+}

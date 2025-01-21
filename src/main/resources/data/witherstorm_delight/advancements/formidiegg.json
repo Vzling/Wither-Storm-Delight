@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "witherstorm_delight:formidiegg"
+    },
+    "title": {
+      "translate": "advancements.formidiegg.title"
+    },
+    "description": {
+      "translate": "advancements.formidiegg.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "meteorite_ingot_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witherstorm_delight:formidiegg"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "witherstorm_delight:super_egg"
+}

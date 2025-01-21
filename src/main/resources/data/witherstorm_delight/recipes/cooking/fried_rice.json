@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "witherstorm_delight:withered_rice"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "witherstormmod:tainted_mushroom"
+    },
+    {
+      "item": "witherstorm_delight:withered_onion"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "witherstorm_delight:fried_withered_rice"
+  },
+"container": {
+    "item": "minecraft:bowl"
+  }
+}

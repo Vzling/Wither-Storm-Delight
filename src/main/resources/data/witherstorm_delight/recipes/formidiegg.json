@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:blaze_powder"
+    },
+    "A": {
+      "item": "witherstorm_delight:super_egg"
+    },
+    "X": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "pattern": [
+    "X#X",
+    "#A#",
+    "X#X"
+  ],
+  "result": {
+    "item": "witherstorm_delight:formidiegg"
+  },
+  "show_notification": true
+}

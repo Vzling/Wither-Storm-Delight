@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "witherstorm_delight:block/wither_stove_bottom",
+    "front": "witherstorm_delight:block/wither_stove_front_on",
+    "side": "witherstorm_delight:block/wither_stove_side",
+    "top": "witherstorm_delight:block/wither_stove_top_on"
+  }
+}

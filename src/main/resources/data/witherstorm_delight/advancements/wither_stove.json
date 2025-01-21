@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "witherstorm_delight:wither_stove"
+    },
+    "title": {
+      "translate": "advancements.wither_stove.title"
+    },
+    "description": {
+      "translate": "advancements.wither_stove.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "meteorite_ingot_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witherstorm_delight:wither_stove"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "witherstorm_delight:the_eye_of_symbiont"
+}
