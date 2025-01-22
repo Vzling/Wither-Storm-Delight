@@ -21,10 +21,6 @@ public abstract class ItemRendererMixin {
             p_115147_.scale(1F, 1F, 1F);
             p_115147_.translate(0F, 0F, 0F);
         }
-    }
-
-    @Inject(method = "render", at = @At("RETURN"))
-    private void endRender(ItemStack p_115144_, ItemDisplayContext p_270188_, boolean p_115146_, PoseStack p_115147_, MultiBufferSource p_115148_, int p_115149_, int p_115150_, BakedModel p_115151_, CallbackInfo ci) {
         p_115147_.popPose();
     }
 }
