@@ -27,6 +27,8 @@ public abstract class CookingPotMenuMixin extends RecipeBookMenu<RecipeWrapper> 
 
     @Inject(at = @At("HEAD"), method = "m_6875_", cancellable = true, remap = false)
     public void addBlock(Player player, CallbackInfoReturnable<Boolean> cir) {
-        cir.setReturnValue(stillValid(canInteractWithCallable, player, ModBlock.COMMAND_COOKING_POT.get()));
+        if (stillValid(canInteractWithCallable, player, ModBlock.COMMAND_COOKING_POT.get())) {
+            cir.setReturnValue(true);
+        }
     }
 }

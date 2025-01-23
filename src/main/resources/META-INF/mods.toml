@@ -4,7 +4,7 @@ license = "MIT License"
 
 [[mods]]
 modId = "witherstorm_delight"
-version = "0.8"
+version = "0.8.2"
 logoFile = "logo.png"
 logoBlur = false
 displayName = "Wither Storm Delight"
