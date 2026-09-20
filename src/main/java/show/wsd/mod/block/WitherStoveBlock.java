@@ -15,7 +15,11 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import show.wsd.mod.init.ModParticleType;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityTicker;
+import net.minecraft.world.level.block.entity.BlockEntityType;
+import show.wsd.mod.block.entity.WitherStoveBlockEntity;
+import show.wsd.mod.init.ModOther;
 import vectorwing.farmersdelight.common.block.StoveBlock;
 import vectorwing.farmersdelight.common.registry.ModSounds;
 
@@ -25,8 +29,24 @@ public class WitherStoveBlock extends StoveBlock {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
 
     public WitherStoveBlock() {
-        super(BlockBehaviour.Properties.of().sound(SoundType.NETHERITE_BLOCK).lightLevel(s -> 15).strength(2f, 5f).requiresCorrectToolForDrops());
+        super(BlockBehaviour.Properties.of().sound(SoundType.NETHERITE_BLOCK).lightLevel(s -> s.getValue(LIT) ? 15 : 0).strength(2f, 5f).requiresCorrectToolForDrops());
         this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(LIT, false));
+    }
+
+    @Override
+    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+        return new WitherStoveBlockEntity(pos, state);
+    }
+
+    @Override
+    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState state, BlockEntityType<T> type) {
+        if (level.isClientSide) {
+            if (state.getValue(LIT)) {
+                return createTickerHelper(type, ModOther.WITHER_STOVE_BE.get(), WitherStoveBlockEntity::particleTick);
+            }
+            return null;
+        }
+        return createStoveTicker(level, type, ModOther.WITHER_STOVE_BE.get());
     }
 
     public void extinguish(BlockState state, Level level, BlockPos pos) {
@@ -54,7 +74,7 @@ public class WitherStoveBlock extends StoveBlock {
             double yOffset = rand.nextDouble() * 6.0D / 16.0D;
             double zOffset = direction$axis == Direction.Axis.Z ? (double) direction.getStepZ() * 0.52D : horizontalOffset;
             level.addParticle(ParticleTypes.SMOKE, x + xOffset, y + yOffset, z + zOffset, 0.0D, 0.0D, 0.0D);
-            level.addParticle(ModParticleType.WIRHER_FLAME.get(), x + xOffset, y + yOffset, z + zOffset, 0.0D, 0.0D, 0.0D);
+            level.addParticle(ModOther.WIRHER_FLAME.get(), x + xOffset, y + yOffset, z + zOffset, 0.0D, 0.0D, 0.0D);
         }
     }
 }

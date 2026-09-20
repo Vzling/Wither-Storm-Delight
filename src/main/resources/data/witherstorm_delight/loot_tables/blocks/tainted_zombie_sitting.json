@@ -5,38 +5,54 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
+          "type": "minecraft:item",
+          "conditions": [
             {
-              "type": "minecraft:item",
-              "conditions": [
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "enchantments": [
+                  {
+                    "enchantment": "minecraft:silk_touch",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "name": "witherstormmod:tainted_zombie_sitting"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "enchantments": [
                 {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "enchantments": [
-                      {
-                        "enchantment": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
-                        }
-                      }
-                    ]
+                  "enchantment": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
                   }
                 }
-              ],
-              "name": "witherstormmod:tainted_zombie_sitting"
-            },
-            {
-              "type": "minecraft:item",
-              "functions": [
-                {
-                  "add": false,
-                  "count": 1.0,
-                  "function": "minecraft:set_count"
-                }
-              ],
-              "name": "witherstormmod:withered_bone"
-            },
+              ]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
             {
               "type": "minecraft:item",
               "functions": [
@@ -51,6 +67,17 @@
                 }
               ],
               "name": "witherstormmod:withered_flesh"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": 1.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "witherstormmod:withered_bone"
             }
           ]
         }

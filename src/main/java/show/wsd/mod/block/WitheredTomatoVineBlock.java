@@ -68,6 +68,10 @@ public class WitheredTomatoVineBlock extends CropBlock {
         if (!isMature && player.getItemInHand(hand).is(Items.BONE_MEAL)) {
             return InteractionResult.PASS;
         } else if (isMature) {
+            if (level.isClientSide) {
+                return InteractionResult.SUCCESS;
+            }
+
             int quantity = 1 + level.random.nextInt(2);
             popResource(level, pos, new ItemStack(ModItem.WITHERED_TOMATO.get(), quantity));
 
@@ -152,7 +156,7 @@ public class WitheredTomatoVineBlock extends CropBlock {
 
     @Override
     protected int getBonemealAgeIncrease(Level level) {
-        return super.getBonemealAgeIncrease(level) / 2;
+        return Math.max(1, super.getBonemealAgeIncrease(level) / 2);
     }
 
     @Override
@@ -169,7 +173,7 @@ public class WitheredTomatoVineBlock extends CropBlock {
 
     @Override
     public boolean isLadder(BlockState state, LevelReader level, BlockPos pos, LivingEntity entity) {
-        return state.getValue(ROPELOGGED) && state.is(BlockTags.CLIMBABLE);
+        return state.getValue(ROPELOGGED);
     }
 
     @Override
